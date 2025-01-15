@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us
-    </title>
+    <title>Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header id="header" class="grid grid-cols-10 container mx-auto">
+        <div class="col-span-3">
+            <a href="/"><img src="img/logo_xrover_iot.jpeg" alt="Logo" width="100" height="80" class="logo"></a>
+        </div>
+        <div class="col-span-7">
+            <nav class="menu flex justify-end">
+                <ul class="flex">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/servicios.html">Our services</a></li>
+                    <li><a href="/clientes.html">Our clients</a></li>
+                    <li><a href="/contacto.html" class="selected">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1 class="title">The Compilers</h1>
+    </header>
+    <div id="banner" class="container mx-auto mb-8">
+        <img src="img/contacto.jpg" alt="">
+    </div>
+    <div class="container mx-auto grid grid-cols-4">
+        <main id="main" class="col-span-3 gap-8 mb-8">
+            <h1 class="title">Form</h1>
+            <iframe class="airtable-embed" src="https://airtable.com/embed/appBpzGenFo2nlmki/pag6RNaUck5uX6nB7/form" 
+            frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+        </main>
+        <aside>
+            <h2 class="subtitle">Follow us</h2>
+            <div class="mb-8 flex social">
+                <a href="https://facebook.com" target="_blank"><img src="/img/facebook.png" alt=""></a>
+                <a href="https://instagram.com" target="_blank"><img src="/img/instagram.png" alt=""></a>
+                <a href="https://tiktok.com" target="_blank"><img src="/img/tiktok.png" alt=""></a>
+                <a href="https://linkedin.com" target="_blank"><img src="/img/linkedin.png" alt=""></a>
+            </div>
+        </aside>
+    </div>
+    <footer id="footer">
+        <p>Coding Academy "The Compilers" <br>
+            Mexico City, Mexico | Contact: 987654321
+        </p>
+    </footer>
 </body>
 </html>
